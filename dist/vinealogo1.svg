@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 236 161" width="236" height="161" role="img" aria-label="VineaDigital">
+  <defs>
+    <!-- Left stroke, upper facet: vivid violet deepening toward the seam -->
+    <linearGradient id="vdPurple" x1="0%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <!-- Left stroke, lower facet: the blue that runs out to the V's point -->
+    <linearGradient id="vdBlueL" x1="20%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#4C8DFF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <!-- Right stroke, upper facet: cyan -->
+    <linearGradient id="vdCyan" x1="0%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Right stroke, lower facet: same blue as the left, so they read as one mark -->
+    <linearGradient id="vdBlueR" x1="20%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#4C8DFF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= LEFT STROKE =================
+       A bold wedge: wide flat top (72 units) tapering to a sharp point.
+       Split by a diagonal seam running up-and-right into two facets. -->
+  <path d="M 0 0 L 72 0 L 89 60 L 68 89 Z" fill="url(#vdPurple)" />
+  <path d="M 68 89 L 89 60 L 114 149 Z" fill="url(#vdBlueL)" />
+
+  <!-- ================= RIGHT STROKE =================
+       Shorter counter-wedge, converging toward the left stroke so the
+       negative space between them forms a clean tapering V. -->
+  <path d="M 162 0 L 224 0 L 188 36 L 143 57 Z" fill="url(#vdCyan)" />
+  <path d="M 143 57 L 188 36 L 130 95 Z" fill="url(#vdBlueR)" />
+</svg>

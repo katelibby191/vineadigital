@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Vinea Digital">
+  <defs>
+    <linearGradient id="fTile" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#141A3A"/>
+      <stop offset="1" stop-color="#080B1E"/>
+    </linearGradient>
+    <linearGradient id="fLeft" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.6" stop-color="#7357FF"/>
+      <stop offset="1" stop-color="#4F7CFF"/>
+    </linearGradient>
+    <linearGradient id="fRight" x1="1" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#3FD2FF"/>
+      <stop offset="1" stop-color="#4F7CFF"/>
+    </linearGradient>
+    <linearGradient id="fTip" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#4F8CFF"/>
+      <stop offset="1" stop-color="#5AB4FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark tile so the mark keeps its contrast on light or dark tab chrome -->
+  <rect width="64" height="64" rx="14" fill="url(#fTile)"/>
+
+  <!-- Mark, scaled up to fill the tile -->
+  <g transform="translate(3.305 10.935) scale(0.24215) translate(-1165 -155)">
+    <polygon points="1330,162 1395,162 1327,262 1294,218" fill="url(#fRight)"/>
+    <polygon points="1172,162 1252,162 1324.4,264.6 1252,275" fill="url(#fLeft)"/>
+    <polygon points="1258,284 1319,274 1285,322" fill="url(#fTip)"/>
+  </g>
+</svg>

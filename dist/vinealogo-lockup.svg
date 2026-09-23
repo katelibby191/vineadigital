@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 398" width="640" height="398" role="img" aria-label="VineaDigital — Ideas, Websites, Apps, Growth">
+  <defs>
+    <linearGradient id="lkPurple" x1="0%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="lkBlueL" x1="20%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#4C8DFF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="lkCyan" x1="0%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="lkBlueR" x1="20%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#4C8DFF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Abstract V mark ===== -->
+  <g transform="translate(155 14) scale(1.473)">
+    <path d="M 0 0 L 72 0 L 89 60 L 68 89 Z" fill="url(#lkPurple)" />
+    <path d="M 68 89 L 89 60 L 114 149 Z" fill="url(#lkBlueL)" />
+    <path d="M 162 0 L 224 0 L 188 36 L 143 57 Z" fill="url(#lkCyan)" />
+    <path d="M 143 57 L 188 36 L 130 95 Z" fill="url(#lkBlueR)" />
+  </g>
+
+  <!-- ===== Wordmark ===== -->
+  <text
+    x="320"
+    y="310"
+    text-anchor="middle"
+    font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="76"
+    font-weight="800"
+    letter-spacing="-2.4"
+    fill="#FFFFFF"
+  >Vinea<tspan fill="#7C5CFF">Digital</tspan></text>
+
+  <!-- ===== Tagline ===== -->
+  <text
+    x="320"
+    y="364"
+    text-anchor="middle"
+    font-family="'Inter', system-ui, sans-serif"
+    font-size="19"
+    font-weight="500"
+    letter-spacing="4.6"
+    fill="#E2E8F0"
+  >IDEAS · WEBSITES · APPS · GROWTH</text>
+</svg>
