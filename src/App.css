@@ -464,11 +464,9 @@ header.nav {
    Same-specificity rules resolve by source order, so a media query declared
    earlier in the file would be silently beaten by the base rules.
 
-   The sizer layer reserves the width of the longest translation, and the
-   Marathi tagline is very wide. On a phone that leaves no room for the CTA,
-   so the tagline and language dots are dropped and the CTA shortens. Both the
-   sizer *and* the live copy are hidden together so the reserved box and the
-   visible text stay the same height. */
+   The CTA label shortens on narrow screens, while the full brand lockup keeps
+   its tagline and language indicator so the brand presentation stays
+   consistent with desktop. */
 @media (max-width: 960px) {
   .nav-inner {
     padding: 14px 20px;
@@ -493,13 +491,6 @@ header.nav {
   .brand-name[lang="mr"] {
     font-size: 1.02rem;
     line-height: 1.3;
-  }
-
-  .brand-sizer-tag,
-  .brand-dots-spacer,
-  .brand-live .brand-tagline,
-  .brand-live .brand-dots {
-    display: none;
   }
 
   .nav-cta {
